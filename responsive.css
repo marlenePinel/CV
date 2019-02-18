@@ -1,0 +1,314 @@
+/******************************************************************
+    Header
+******************************************************************/
+
+@media screen and (max-width: 960px)
+{
+  
+  .header
+  {
+    padding: 25px 0;
+  }
+
+  .header .container-fluid
+  {
+    margin:0 30px;
+  }
+
+  .header .logo img
+  {
+    width: 90px;
+  }
+
+  .header-bloc
+  {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .header-texte
+  {
+    display: none;
+  }
+
+  .header-picto
+  {
+    display: inline-block;
+    width: 35px;
+  }
+
+  .header .nav .menu .produits
+  {
+    position: relative;
+  }
+  
+  .header .nav .menu .team
+  {
+    position: relative;
+  }
+
+  .white
+  {
+    display: none;
+  }
+
+  .sous-menu-prod
+  {
+    width: 22vw;
+    padding-left: 0;
+    left: 0
+  }
+
+  .sous-menu-team
+  {
+    width: 22vw;
+    padding-left: 0;
+    left: 0;
+  }
+
+  .header .nav li a{
+    color: black;
+  }
+
+  .header .nav li a:hover .white
+  {
+    display: inline-block;
+    transition: all linear 100ms;
+    width: 35px;
+  }
+
+  .header .nav li a:hover .black
+  {
+    display: none;
+  }
+
+}
+
+@media screen and (max-width: 675px)
+{
+  
+  .header
+  {
+    padding: 25px 0;
+  }
+
+  .header .container-fluid
+  {
+    margin:0 15px;
+  }
+
+  .header .logo img
+  {
+    width: 55px;
+  }
+
+  .header-bloc
+  {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .header-texte
+  {
+    display: none;
+  }
+
+  .header-picto
+  {
+    display: inline-block;
+    width: 30px;
+  }
+
+  .header .nav .menu .produits
+  {
+    position: relative;
+  }
+  
+  .header .nav .menu .team
+  {
+    position: relative;
+  }
+
+  .white
+  {
+    display: none;
+  }
+
+  .sous-menu-prod
+  {
+    width: 25vw;
+    padding-left: 0;
+    left: 0
+  }
+
+  .sous-menu-team
+  {
+    width: 25vw;
+    padding-left: 0;
+    left: 0;
+  }
+
+.header .nav li
+{
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+  .header .nav li a{
+    color: black;
+  }
+
+  .header .nav li a:hover .white
+  {
+    display: inline-block;
+    transition: all linear 100ms;
+    width: 30px;
+  }
+
+  .header .nav li a:hover .black
+  {
+    display: none;
+  }
+
+}
+
+/******************************************************************
+
+    /!\ RESPONSIVE Contact
+
+******************************************************************/
+
+@media screen and (max-width:700px){
+	
+	.form-civilite{
+		visibility: hidden;
+	}
+
+	.smart-civilite{
+		visibility: visible;
+		display: block;
+		text-align: left;
+	}
+	
+	.form-nom{
+		text-align: left;
+
+	}
+
+	.form-telephone{
+		text-align: left;
+	}
+
+	.form-email{
+		text-align: left;
+	}
+
+	.form-objet{
+		display: block;
+		text-align: left;
+	}
+
+	.form-message {
+		float: left;
+		/*display: block;*/
+		text-align: left;
+	}
+
+	.form-recontact{
+		text-align: left;
+	}
+
+	.form-recontact{
+		display: none;
+	}
+
+	.form-smart-recontact{
+		visibility: visible;
+		display: block;
+		padding-top: 60px;
+		padding-right: 500px;
+			}
+
+	.form-raison{
+		display: none;
+	}
+
+	.btn .btn-mp{
+		display: none;
+		padding-top: 100px;
+		margin-right: -500px; 
+		text-align: left;
+	}
+}
+
+
+
+
+
+/******************************************************************
+
+    /!\ RESPONSIVE SITE Marlène
+
+******************************************************************/
+@media screen and (max-width: 780px){
+
+    .presentation .desc{
+        display: block;
+    }
+    
+    .presentation .desc .block-gauche{
+      width: 100%;
+    }
+    
+    .titre-principal{
+      text-align: center;
+      font-size: 65px;
+    }
+    
+    .block-droite .photo{
+      display: none;
+    }
+    
+      .tel{
+      display: none;
+      }
+    
+      .bloc{
+      display: block;
+      }
+    
+      .bloc .skills{
+      width: 100%;
+      }
+    
+      .titre-secondaire{
+      text-align: center;
+      font-size: 40px;
+      margin: 0 auto;
+    }
+    
+    .galerie-photos{
+      margin: 0px 100px;
+    }
+    
+      .vecteur-competences{
+        width: 100%;
+        margin: 0px 5px;
+    
+      }
+    
+      .bloc .hobbies{
+        width: 100%;
+      }
+    
+      .vecteur-loisirs{
+        width: 100%;
+        margin: 0px 5px;
+      }
+    
+      .footer .logo{
+      margin-left: 30px;
+      }
+    
+}
